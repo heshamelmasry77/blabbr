@@ -1,5 +1,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+@import url(https://fonts.googleapis.com/css?family=Nunito);
 /* Reset Styles */
 
 html, body, div, span, applet, object, iframe,
@@ -82,7 +84,7 @@ html {
 }
 
 body  {
-  font-family: Merriweather, serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 1rem;
   line-height: 160%;
   *zoom: 1;
@@ -116,7 +118,7 @@ h1{
 
 h2{ 
  font-size: 1.2rem;
-    /* line-height: 90%; */
+     line-height: 50px;
     color: #063642;
 }
 
@@ -198,8 +200,7 @@ a.small {
 }
 
 .search input {
-  font-family: 'Droid Sans', sans-serif;
-  width: 100%;
+font-family: 'Nunito', sans-serif;  width: 100%;
   padding: 10px 0 10px 15px;
   font-size: 1rem;
   color: #fff;
@@ -257,9 +258,10 @@ background: rgb(0, 161, 228);
 }
 
 .chatlist li {
-  margin: 0;
-  padding: 10px 10px 0 10px;
-  border-bottom: 1px dotted black;
+  
+     margin: 0;
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid #D4D4D4;
 }
 
 .chatlist a {
