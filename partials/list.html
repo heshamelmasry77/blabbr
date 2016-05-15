@@ -1,5 +1,8 @@
+<!--IAM GOING TO USE ANGULAR JS ANIMATIONS SO I CAN MAKE THE SEARCH SMOTHER AND NICER -->
 
-<section class="artistpage">
+
+
+<section class="chatpage">
 
         <div class="search">
         
@@ -13,12 +16,10 @@
             <select ng-model ="chatsOrder">
 <!--                THIS OPTIONS IS LINKING TO  THE NAME IN MY JSON FILE DATA HA REMEMBER -->
                 <option value="name">
-                
                 Name
                 </option>
-                <option value="reknown">
-                Reknown
-                
+                <option value="gender">
+                Gender
                 </option>
                 </select>
             
@@ -27,35 +28,36 @@
             <label class="formgroup">
                 
             <input type="radio" ng-model="direction" name="direction" checked>
-                asc
+                ascending
             </label>
             
             <label class="formgroup">
                
             <input type="radio" ng-model="direction" name="direction" value="reverse">
-                 dsc
+                 descending
             </label>
         </div>
    
     
         
         
-        <ul class="artistlist">
+        <ul class="chatlist">
             
-<!--            BRING FOR ME ALL THE THING IN artists variable -->
+<!--            BRING FOR ME ALL THE THING IN chats variable -->
 <!--
             
-            CREATE A VARIABLE CALLED item THAT READS DATA FROM atrists variable Its like place i there temprorary  
+            CREATE A VARIABLE CALLED item THAT READS DATA FROM chats variable Its like place i there temprorary  
 -->
             
 
 <!--            if we wanna limit the chats  | limitTo: 5 in the ng-repeat -->
-            <li class="artist cf" ng-repeat="item in chats | filter: query | orderBy: chatsOrder:direction">
+<!--            WHEN I PUT  THIS HERE THE NG ANIMATE I WILL HAVE ACCES TO THE EVENTS  PRIVIDED BY THE ANGULAR JS FOR ANIMCATION -->
+            <li class="chat cf animation" ng-repeat="item in chats | filter: query | orderBy: chatsOrder:direction">
                 <a href="#details/{{chats.indexOf(item)}}" >
       <img ng-src="images/{{item.shortname}}_tn.jpg" alt="Photo of {{item.name}}">
       <div class="info">
-        <h2>{{item.name | uppercase}}</h2>
-        <h3>{{item.reknown}}</h3>
+        <h2>{{item.name}}</h2>
+<!--        <h3>{{item.gender}}</h3>-->
       </div>
                     </a>
             </li>

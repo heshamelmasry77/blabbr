@@ -1,43 +1,33 @@
 [
   {
     "name":"Hesham El Masry",
-    "shortname":"Barot_Bellingham"
+    "shortname":"hesham",
+      "gender":"male"
+      
     
   },
   {
     "name":"Boitumelo Manala",
-    "shortname":"Jonathan_Ferrar"
+    "shortname":"boitumelo",
+      "gender":"female"
     
   },
   {
     "name":"Carlotta Pro",
-    "shortname":"Hillary_Goldwynn"
+    "shortname":"carlotta",
+      "gender":"female"
    
   },
   {
     "name":"Ona Chadu",
-    "shortname":"Hassum_Harrod"
+    "shortname":"ona",
+      "gender":"female"
     
   },
   {
     "name":"Safi Ahmed",
-    "shortname":"Jennifer_Jerome"
+    "shortname":"safi",
+      "gender":"female"
    
-  },
-  {
-    "name":"Laura",
-    "shortname":"LaVonne_LaRue"
-  },
-  {
-    "name":"Ahmed Hatem",
-    "shortname":"Constance_Smith"
-  },
-  {
-    "name":"Omar",
-    "shortname":"Riley_Rewington"
-  },
-  {
-    "name":"Naglaa",
-    "shortname":"Xhou_Ta"
   }
 ]

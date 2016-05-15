@@ -115,9 +115,9 @@ h1{
 }
 
 h2{ 
-  font-size: 1.5rem;
-  line-height: 90%;
-  color: #c61c6f;
+ font-size: 1.2rem;
+    /* line-height: 90%; */
+    color: #063642;
 }
 
 h3{ 
@@ -238,40 +238,40 @@ background: rgb(0, 161, 228);
 
 /* Artist List Styles */
 
-.artistlist {
+.chatlist {
   background: #EEE8D5;
   width: 50%;
   min-width: 290px;
   max-width:350px;
   margin: 0 auto;
   margin-bottom: 30px;
-  border-radius: 0 0 20px 20px;
+  
   opacity: .95;
   z-index: 10;
 }
 
-.artistlist ul {
+.chatlist ul {
   margin: 0;
   padding: 0;
   background: #FDF6E3;
 }
 
-.artistlist li {
+.chatlist li {
   margin: 0;
   padding: 10px 10px 0 10px;
   border-bottom: 1px dotted black;
 }
 
-.artistlist a {
+.chatlist a {
   display: block;
   text-decoration: none;
 }
 
-.artistlist li:hover {
+.chatlist li:hover {
   background: #FDF6E3;
 }
 
-.artist img {
+.chat img {
   display: block;
   float: left;
   width: 60px;
@@ -281,43 +281,74 @@ background: rgb(0, 161, 228);
   margin-bottom: 10px;
 }
 
-.artist info {
+.chat info {
   display: block;
   float: left;
   padding-left: 120px !important;
 }
 
-.artist:last-child {
+.chat:last-child {
   border-bottom:none;
 }
 
-.artistinfo {
+.chatinfo {
   font-size: 1.1em;
   line-height: 160%;
   background: #EEE8D5;
   color: #0F4150;
   width: 90%;
-  min-width: 320px;
-  max-width: 620px;
+  min-width: 290px;
+    max-width: 350px;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 20px 30px;
-  border-radius: 10px;
+/*  border-radius: 10px;*/
   z-index: 20;
 }
 
-.artistinfo h1{
+.chatinfo h1{
   font-size: 1.8em;
   margin-bottom: 0;
 }
 
-.artistinfo img {
+.chatinfo img {
   width: 40%;
   max-width: 130px;
   border-radius: 20px;
 }
 
-.artistinfo .btn {
+.chatinfo .btn {
 
 }
+
+/*HERE IAM ADDING THE ANIMATION CLASSES FOR THE ANGUKAR JS */
+
+.animation {
+  -webkit-transition: .5s;
+}
+
+.animation.ng-enter {
+  opacity: 0;
+}
+
+.animation.ng-leave {
+  opacity: 1;
+}
+
+.animation.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+
+.animation.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+

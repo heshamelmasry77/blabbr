@@ -1,5 +1,5 @@
-var ChatControllers = angular.module('ChatControllers',[]);
 
+var ChatControllers = angular.module('ChatControllers', ['ngAnimate']);
 
 //HERE WE DID THIS MODULE AND WE OUT IT IN A VAR SO THEN WE GO TO THE APP.JS IN THE MY APP AND WE USE THIS MODULE 
 //MVC BIYAG :D
