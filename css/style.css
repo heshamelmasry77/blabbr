@@ -1,7 +1,8 @@
 
 @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
 
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+@import url(https://fonts.googleapis.com/css?family=Just+Another+Hand);
 /* Reset Styles */
 
 html, body, div, span, applet, object, iframe,
@@ -71,7 +72,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 html {
-  background-color: #00A1E4; 
+  background-color: #fff; 
 /*
   background-image: url(images/fallback-gradient.png); 
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#023E54), to(#10AAC0));
@@ -109,22 +110,21 @@ a {
 }
 
 h1{
-  color: #145266;
-  font-size: 1.5rem;
+  color: #000;
+  font-size: 2rem;
   line-height: 100%;
   margin-bottom: 10px;
-    font-family: 'Fjalla One', sans-serif;
-}
+font-family: 'Just Another Hand', cursive;}
 
 h2{ 
  font-size: 1.2rem;
      line-height: 50px;
-    color: #063642;
+    color: #000;
 }
 
 h3{ 
   margin-top: 0;
-  color: #bd3613;
+  color: #000;
   line-height: 110%;
   margin-bottom: 5px;
 }
@@ -133,7 +133,6 @@ p {
   line-height: 1.3rem;
   color: #475B62;
   margin-bottom: 10px;
-  font-family: 'Merriweather';
 }
 
 a.small {
@@ -145,7 +144,7 @@ a.small {
 /* Search Styles */
 
 .search {
-  background: #063642;
+  background: rgb(255, 255, 0);
     color: #EEE8D5;
     width: 90%;
     min-width: 290px;
@@ -155,10 +154,14 @@ a.small {
     /* border-radius: 20px; */
     padding: 20px 30px;
     z-index: 20;
+    border-bottom: none;
+    border-top: 1px solid #D4D4D4;
+    border-right: 1px solid #D4D4D4;
+    border-left: 1px solid #D4D4D4;
 }
 
 .search h1 {
-  color: #EEE8D5;
+  color: #000;
 }
 
 .btn {
@@ -203,7 +206,7 @@ a.small {
 font-family: 'Nunito', sans-serif;  width: 100%;
   padding: 10px 0 10px 15px;
   font-size: 1rem;
-  color: #fff;
+  color: #000;
   background: rgba(255,255,255,0.4);
   border: none;
   outline: 0;
@@ -214,11 +217,13 @@ font-family: 'Nunito', sans-serif;  width: 100%;
   border: 1px solid rgba(0,0,0,0.3);
   display: inline;
   width: auto;
+    
 }
 
 .search label.formgroup {
   display: inline;
   width: auto;
+    color: #000;
 }
 
 .search select {
@@ -227,13 +232,14 @@ font-family: 'Nunito', sans-serif;  width: 100%;
   font-size: 1rem;
   color: #fff;
 /*background: rgb(0, 161, 228);*/
-background: rgb(0, 161, 228);
+background: rgb(0, 0, 0);
     border: none;
   border-radius: 0;
   outline: 0;
 }
 .search select:hover {
-  background: #6A868E;
+  background: #fff;
+    color: #000;
 
 }
 
@@ -246,6 +252,7 @@ background: rgb(0, 161, 228);
   max-width:350px;
   margin: 0 auto;
   margin-bottom: 30px;
+    border: 1px solid #D4D4D4;
   
   opacity: .95;
   z-index: 10;
